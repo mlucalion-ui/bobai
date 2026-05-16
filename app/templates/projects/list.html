@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Projects · bobai{% endblock %}
+{% block content %}
+<section class="layout-split">
+  <div class="panel">
+    <h1>Projects</h1>
+    <ul id="project-list" class="project-list">
+      {% for project in projects %}
+        {% include "projects/_card.html" %}
+      {% else %}
+        <li class="empty">No projects yet. Create one to get started.</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <aside class="panel">
+    <h2>New project</h2>
+    <form
+      hx-post="/projects"
+      hx-target="#project-list"
+      hx-swap="afterbegin"
+      hx-on::after-request="if (event.detail.successful) this.reset()"
+    >
+      <label>
+        Project name
+        <input type="text" name="name" required placeholder="e.g. 83 New Kent Road">
+      </label>
+      <label>
+        Client
+        <input type="text" name="client" required placeholder="e.g. LGL Properties">
+      </label>
+      <button type="submit">Create</button>
+    </form>
+  </aside>
+</section>
+{% endblock %}

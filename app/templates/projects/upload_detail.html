@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}{{ upload.filename }} · {{ project.name }} · bobai{% endblock %}
+{% block content %}
+<nav class="crumbs">
+  <a href="/">Projects</a> /
+  <a href="/projects/{{ project.id }}">{{ project.name }}</a> /
+  {{ upload.filename }}
+</nav>
+
+<header class="project-header">
+  <h1>{{ upload.filename }}</h1>
+  <p class="client">
+    <span class="kind kind-{{ upload.kind }}">{{ upload.kind }}</span>
+    &middot; {{ upload.text|length if upload.text else 0 }} chars
+    {% if upload.size_bytes %}&middot; {{ (upload.size_bytes / 1024)|round(1) }} kB{% endif %}
+    &middot; uploaded {{ upload.created_at.strftime("%d %b %Y, %H:%M") }}
+  </p>
+</header>
+
+<section class="panel">
+  <h2>Extracted text</h2>
+  {% if upload.text %}
+    <pre class="extracted">{{ upload.text }}</pre>
+  {% else %}
+    <p class="empty">No text extracted.</p>
+  {% endif %}
+</section>
+{% endblock %}

@@ -1,0 +1,59 @@
+
+=== PAGE 1 ===
+Crown Lane
+Strategic Programme
+Mon 17/02/25
+ID Task Name Duration Start Finish Half 2, 2024 Half 1, 2025 Half 2, 2025 Half 1, 2026 Half 2, 2026 Half 1, 2027 Half 2, 2027
+S O N D J F M A M J J A S O N D J F M A M J J A S O N D J F M A M J J A S O N D
+1 83 New Kent Road 117 wks Thu 20/02/25 Wed 16/06/27
+2 Simultaneous Exchange & Complete Purchase 0 days Thu 20/02/25 Thu 20/02/25 20/02
+3 Target Completion Date (28 months after exchange) 0 wks Wed 16/06/27 Wed 16/06/27 Target Completion Date (28 months after exchange)
+4 Plannning Design & Submission 19 wks Thu 20/02/25 Wed 02/07/25
+5 Kick off 0 wks Thu 20/02/25 Thu 20/02/25 Kick off
+6 Lead In 2 wks Thu 20/02/25 Wed 05/03/25 Lead In
+7 Stage 2 10 wks Thu 06/03/25 Wed 14/05/25 Stage 2
+8 Demo Drawings 4 wks Thu 06/03/25 Wed 02/04/25 Demo Drawings
+9 Prepare Planning Applications 4 wks Thu 06/03/25 Wed 02/04/25 Prepare Planning Applications
+10 Review & Submit Planning Applications 1 wk Thu 03/04/25 Wed 09/04/25 Review & Submit Planning Applications
+11 Determination Period 8 wks Thu 10/04/25 Wed 04/06/25 Determination Period
+12 Determination Contingency Period 4 wks Thu 05/06/25 Wed 02/07/25 Determination Contingency Period
+13 Client/TNM/QS Review 2 wks Thu 15/05/25 Wed 28/05/25 Client/TNM/QS Review
+14 Final Coordination / Amends 1 wk Thu 29/05/25 Wed 04/06/25 Final Coordination / Amends
+15 Stage 3+ Design 19 wks Thu 05/06/25 Wed 15/10/25
+16 Stage 3+ Design Commences 14 wks Thu 05/06/25 Wed 10/09/25 Stage 3+ Design Commences
+17 Client/TNM/QS Review 2 wks Thu 11/09/25 Wed 24/09/25 Client/TNM/QS Review
+18 Final Coordination / Amends 2 wks Thu 25/09/25 Wed 08/10/25 Final Coordination / Amends
+19 Sign Off - Stage 3+ 1 wk Thu 09/10/25 Wed 15/10/25 Sign Off - Stage 3+
+20 Stat Works & Third Parties 10 wks Thu 20/03/25 Wed 28/05/25
+21 Utility Applications 10 wks Thu 20/03/25 Wed 28/05/25 Utility Applications
+22 Party Wall & Notices 10 wks Thu 20/03/25 Wed 28/05/25 Party Wall & Notices
+23 Tender - Demo & Enabling Works 12 wks Thu 03/04/25 Wed 25/06/25
+24 Selection - Tender List 2 wks Thu 03/04/25 Wed 16/04/25 Selection - Tender List
+25 Collate Tender Docs 2 wks Thu 17/04/25 Wed 30/04/25 Collate Tender Docs
+26 Issue Tender Packs 2 wks Thu 01/05/25 Wed 14/05/25 Issue Tender Packs
+27 Tender Period 2 wks Thu 15/05/25 Wed 28/05/25 Tender Period
+28 Tender Return 2 wks Thu 29/05/25 Wed 11/06/25 Tender Return
+29 Tender Analysis & Interviews 1 wk Thu 12/06/25 Wed 18/06/25 Tender Analysis & Interviews
+30 Recommendation & Client Approval 1 wk Thu 19/06/25 Wed 25/06/25 Recommendation & Client Approval
+31 Demo & Enabling Works 11 wks Thu 26/06/25 Wed 10/09/25
+32 Appoint Contractor 1 wk Thu 26/06/25 Wed 02/07/25 Appoint Contractor
+33 Lead-In 2 wks Thu 03/07/25 Wed 16/07/25 Lead-In
+34 Demo & Enabling Works 8 wks Thu 17/07/25 Wed 10/09/25 Demo & Enabling Works
+35 Completion 0 wks Wed 10/09/25 Wed 10/09/25 Completion
+36 Tender - Main Contractor 22 wks Thu 24/07/25 Wed 07/01/26
+37 PQQ - Revelvant Contractors 4 wks Thu 24/07/25 Thu 21/08/25 PQQ - Revelvant Contractors
+38 Selection - Tender List 4 wks Thu 21/08/25 Thu 18/09/25 Selection - Tender List
+39 Collate Tender Docs 4 wks Thu 18/09/25 Wed 15/10/25 Collate Tender Docs
+40 Issue Tender Packs 0 wks Wed 15/10/25 Wed 15/10/25 Issue Tender Packs
+41 Tender Period 6 wks Thu 16/10/25 Wed 26/11/25 Tender Period
+42 Tender Analysis & Interviews 2 wks Thu 27/11/25 Wed 10/12/25 Tender Analysis & Interviews
+43 Recommendation & Client Approval 2 wks Thu 11/12/25 Wed 07/01/26 Recommendation & Client Approval
+44 Main Contractor Works 73 wks Wed 07/01/26 Wed 16/06/27
+45 Contractor Appointment 0 wks Wed 07/01/26 Wed 07/01/26 Contractor Appointment
+46 Lead-In 4 wks Thu 08/01/26 Wed 04/02/26 Lead-In
+47 Main Works 52 wks Thu 05/02/26 Wed 17/02/27 Main Works
+48 Practical Completion 0 wks Wed 17/02/27 Wed 17/02/27 Practical Completion
+49 Satisfactory Completion 2 wks Thu 18/02/27 Wed 03/03/27 Satisfactory Completion
+50 Handover to TNM 2 wks Thu 04/03/27 Wed 17/03/27 Handover to TNM
+51 Contingency 13 wks Thu 18/03/27 Wed 16/06/27 Contingency
+Page 1

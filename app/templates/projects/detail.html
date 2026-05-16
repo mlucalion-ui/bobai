@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% block title %}{{ project.name }} · bobai{% endblock %}
+{% block content %}
+<nav class="crumbs"><a href="/">Projects</a> / {{ project.name }}</nav>
+
+<header class="project-header">
+  <h1>{{ project.name }}</h1>
+  <p class="client">{{ project.client }}</p>
+</header>
+
+<section class="layout-split">
+  <div class="panel">
+    <h2>Brief &amp; context</h2>
+    <p class="hint">Upload the RFP, any supporting docs, and paste in email instructions. Each gets ingested and shown below.</p>
+
+    <div class="upload-tabs" role="tablist">
+      <button type="button" class="tab active" data-tab="file">Upload file</button>
+      <button type="button" class="tab" data-tab="paste">Paste text</button>
+    </div>
+
+    <form
+      class="upload-form"
+      data-tab-panel="file"
+      hx-post="/projects/{{ project.id }}/uploads"
+      hx-target="#upload-list"
+      hx-swap="afterbegin"
+      hx-encoding="multipart/form-data"
+      hx-on::after-request="if (event.detail.successful) this.reset()"
+    >
+      <label class="filedrop">
+        <input type="file" name="file" required accept=".pdf,.docx,.eml,.txt,.md">
+        <span>PDF, DOCX, EML, TXT or MD</span>
+      </label>
+      <button type="submit">Upload &amp; ingest</button>
+    </form>
+
+    <form
+      class="upload-form"
+      data-tab-panel="paste"
+      style="display:none"
+      hx-post="/projects/{{ project.id }}/uploads"
+      hx-target="#upload-list"
+      hx-swap="afterbegin"
+      hx-on::after-request="if (event.detail.successful) this.reset()"
+    >
+      <label>
+        Name
+        <input type="text" name="paste_name" placeholder="e.g. Email from Harry, 17 Feb">
+      </label>
+      <label>
+        Text
+        <textarea name="paste_text" rows="6" required placeholder="Paste an email, brief snippet, or notes here…"></textarea>
+      </label>
+      <button type="submit">Add as context</button>
+    </form>
+  </div>
+
+  <aside class="panel">
+    <h2>Pipeline</h2>
+    <ol class="stages compact">
+      <li class="stage current">
+        <strong>1. Brief &amp; context</strong>
+        <span>{{ uploads|length }} item{{ '' if uploads|length == 1 else 's' }}</span>
+      </li>
+      <li class="stage"><strong>2. Extracted facts</strong><span>Day 3</span></li>
+      <li class="stage"><strong>3. Plan</strong><span>Day 4</span></li>
+      <li class="stage"><strong>4. Sections</strong><span>Day 5</span></li>
+      <li class="stage"><strong>5. Export</strong><span>Day 8</span></li>
+    </ol>
+  </aside>
+</section>
+
+<section class="panel" style="margin-top:24px">
+  <h2>Uploads</h2>
+  <ul id="upload-list" class="upload-list">
+    {% for upload in uploads %}
+      {% include "projects/_upload_card.html" %}
+    {% else %}
+      <li class="empty">No uploads yet.</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<script>
+  document.querySelectorAll(".upload-tabs .tab").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".upload-tabs .tab").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      const target = btn.dataset.tab;
+      document.querySelectorAll("[data-tab-panel]").forEach(p => {
+        p.style.display = p.dataset.tabPanel === target ? "" : "none";
+      });
+    });
+  });
+</script>
+{% endblock %}
