@@ -12,7 +12,7 @@ from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 
 from app.db import init_db
-from app.routes import projects
+from app.routes import projects, uploads
 
 
 @asynccontextmanager
@@ -24,3 +24,4 @@ async def lifespan(app: FastAPI):
 app = FastAPI(title="bobai", lifespan=lifespan)
 app.mount("/static", StaticFiles(directory="app/static"), name="static")
 app.include_router(projects.router)
+app.include_router(uploads.router)

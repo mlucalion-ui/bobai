@@ -8,7 +8,7 @@ from fastapi.templating import Jinja2Templates
 from sqlmodel import Session, select
 
 from app.db import get_session
-from app.models import Project
+from app.models import Project, Upload
 
 router = APIRouter()
 templates = Jinja2Templates(directory="app/templates")
@@ -47,6 +47,11 @@ def project_detail(
     project = session.get(Project, project_id)
     if not project:
         return RedirectResponse(url="/", status_code=303)
+    uploads = session.exec(
+        select(Upload).where(Upload.project_id == project_id).order_by(Upload.created_at.desc())
+    ).all()
     return templates.TemplateResponse(
-        request, "projects/detail.html", {"project": project}
+        request,
+        "projects/detail.html",
+        {"project": project, "uploads": uploads},
     )

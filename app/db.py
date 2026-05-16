@@ -22,6 +22,18 @@ def init_db() -> None:
     from app import models  # noqa: F401
 
     SQLModel.metadata.create_all(engine)
+    _ensure_upload_columns()
+
+
+def _ensure_upload_columns() -> None:
+    """SQLite-only idempotent ALTER TABLE for columns added after Day 1."""
+    with engine.begin() as conn:
+        rows = conn.exec_driver_sql("PRAGMA table_info(upload)").all()
+        cols = {r[1] for r in rows}
+        if "text" not in cols:
+            conn.exec_driver_sql("ALTER TABLE upload ADD COLUMN text TEXT")
+        if "size_bytes" not in cols:
+            conn.exec_driver_sql("ALTER TABLE upload ADD COLUMN size_bytes INTEGER")
 
 
 def get_session() -> Iterator[Session]:

@@ -1,0 +1,26 @@
+<li class="upload-card" id="upload-{{ upload.id }}">
+  <div class="upload-head">
+    <span class="kind kind-{{ upload.kind }}">{{ upload.kind }}</span>
+    <a class="filename" href="/projects/{{ upload.project_id }}/uploads/{{ upload.id }}">{{ upload.filename }}</a>
+    <span class="meta">
+      {% if upload.size_bytes %}{{ (upload.size_bytes / 1024)|round(1) }} kB · {% endif %}
+      {{ upload.text|length if upload.text else 0 }} chars ·
+      {{ upload.created_at.strftime("%d %b %H:%M") }}
+    </span>
+    <button
+      type="button"
+      class="delete"
+      hx-post="/projects/{{ upload.project_id }}/uploads/{{ upload.id }}/delete"
+      hx-target="#upload-{{ upload.id }}"
+      hx-swap="outerHTML"
+      hx-confirm="Delete this upload?"
+      title="Remove"
+    >×</button>
+  </div>
+  {% if upload.text %}
+    <details class="upload-preview">
+      <summary>Preview extracted text</summary>
+      <pre>{{ upload.text[:1200] }}{% if upload.text|length > 1200 %}…{% endif %}</pre>
+    </details>
+  {% endif %}
+</li>

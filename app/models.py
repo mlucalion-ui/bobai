@@ -24,5 +24,7 @@ class Upload(SQLModel, table=True):
     project_id: int = Field(foreign_key="project.id", index=True)
     filename: str
     path: str
-    kind: str = Field(default="brief")  # 'brief' | 'context' | 'email'
+    kind: str = Field(default="pdf")  # 'pdf' | 'docx' | 'eml' | 'text' | 'paste'
+    size_bytes: Optional[int] = None
+    text: Optional[str] = None  # extracted plain text
     created_at: datetime = Field(default_factory=datetime.utcnow)
