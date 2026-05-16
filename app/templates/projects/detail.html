@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}{{ project.name }} · bobai{% endblock %}
+{% block content %}
+<nav class="crumbs"><a href="/">Projects</a> / {{ project.name }}</nav>
+
+<header class="project-header">
+  <h1>{{ project.name }}</h1>
+  <p class="client">{{ project.client }}</p>
+</header>
+
+<section class="pipeline">
+  <ol class="stages">
+    <li class="stage current">
+      <h2>1. Brief &amp; context</h2>
+      <p>Upload the RFP, supporting docs, and any email instructions.</p>
+      <p class="stub">— upload UI lands on Day 2 —</p>
+    </li>
+    <li class="stage">
+      <h2>2. Extracted facts</h2>
+      <p>Review the building, scope, services, programme and constraints we pulled out.</p>
+    </li>
+    <li class="stage">
+      <h2>3. Plan</h2>
+      <p>Lock in the four judgement calls and confirm the section list.</p>
+    </li>
+    <li class="stage">
+      <h2>4. Sections</h2>
+      <p>Generate, edit and regenerate sections inline.</p>
+    </li>
+    <li class="stage">
+      <h2>5. Export</h2>
+      <p>Download the Scotch-styled <code>.docx</code>.</p>
+    </li>
+  </ol>
+</section>
+{% endblock %}
