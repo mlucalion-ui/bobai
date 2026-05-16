@@ -1,0 +1,130 @@
+
+=== PAGE 1 ===
+17.02.2025
+LG Living Ltd (LGL) has prepared this document to support your fee proposal for the redevelopment of 83
+New Kent Rd (the site), within the London Borough of Southwark.
+The document summarises the existing site, the proposed scheme, as well as the technical due diligence
+conducted to date.
+A high level programme is appended to this document.
+You are expecting to provide a fee proposal from RIBA Stage 2 – 5.
+The property was constructed in circa. 1905. The building as converted in 1989 into its current form.
+The property is currently student accommodation consisting of 85 standard rooms that are arranged in
+clusters of two to six rooms, with each cluster sharing bathroom and kitchen facilities. The building has
+been vacant since March 2020. There is no planning consents available from Southwark Council.
+The buildings are not Statutorily Listed buildings on the Historic England register nor is the site designated
+as within a Conservation Area. However, according to the recently adopted London Borough of Southwark
+(LBS) Local List (Dec 2023), the building is classed as a Locally Listed Building.
+The site comprises three purpose-built interconnected buildings (use class Sui Generis) of between 2 and 4
+stores in height, with a central courtyard area, totalling 26,615 sq ft (2,473 sq m) GIA.
+The small courtyard fronting New Kent Road contains trees protected by Tree Preservation Orders (TPOs),
+which must be retained.
+The existing building will be reconfigured to optimise space and functionality through:
+(a) Delivering 93 ensuite studio units, averaging 17 sq m. The majority of these units will have
+mezzanines, adding an additional 3.75 sq m of useable space per unit. This increases the average
+usable space to 19.2 sq m per unit.
+(b) Introduction of two new lifts, both meeting fire evacuation standards.
+(c) Introduction of Air Source Heat Pumps.
+(d) Providing shared amenity space totalling 91 sq m.
+(e) Targeting EPC B.
+(f) A high-spec fit-out to help differentiate the product.
+=== PAGE 2 ===
+Frame Engineers conducted a non-intrusive visual inspection on the 15th January 2025, which concludes
+the following:
+(a) “Following a review of all available record information and Frame Engineers’ site walkover, the general
+condition of the structure appears reasonable with no significant signs of structural defects. Therefore, it is not
+currently expected that excessive structural repairs will be required as part of the refurbishment.”
+The typical existing structure of the blocks with mansard roofs are expected to consist of one way spanning
+concrete slabs supported off a series of downstand beams which are themselves supported off load-bearing
+solid masonry walls. There is a possibility the structural floor buildups may be of another construction
+methodology such as clay-pot floors or similar. This will be confirmed as part of the soft-strip and intrusive
+survey works.
+The two smaller blocks with pitched roofs are expected to have timber joist floors which are supported off
+the external masonry load-bearing walls.
+The condition of the structure was observed to be reasonable with no significant signs of degradation or
+defects. A more detailed visual inspection will be required following soft strip to verify this.
+Scotch and Partners issued a report on 31 January 2025, a summary of which is as follows:
+(a) “The report outlines the recommended MEP interventions to uplift the existing EPC for the site from EPC E to
+EPC B. This is mainly achieved via replaced of current heating and domestic hot water system with air source
+heat pumps and fabric upgrades to the development. Outline plant areas have been given for these interventions
+and a high level review of existing utility infrastructure and maintenance report ( by Fulkers Bailey Russell)
+indicates that the high level cost plan allow for power and water upgrades.”
+The key considerations regarding MEP are provided below.
+A substantial improvement to EPC will require an all-electric system and likely require replacing the
+existing gas boiler system with Air Source Heat Pumps (ASHPs) for heating and domestic hot water. The
+preferred approach is to install ASHPs on the roof of each block, subject to further feasibility reviews.
+New high-performance double pane windows are a required. Depending on the outcome of future studies,
+building fabric upgrades may also be needed. As the building is not be a new build residential building, it
+will not need to comply with Part O – overheating in dwellings.
+The preventative maintenance report provided by Fulkers Bailey Russel recommends that the main
+incoming power supply be upgraded, as it has reached the end of its serviceable life. It is recommended that
+this be replaced with a new system.
+The capacity of the incoming electrical infrastructure is not fully determined, but given the planned MEP
+interventions, including replacing gas boiler installations with ASHPs, the power load is expected to
+increase. A full assessment should be undertaken to determine the extent of necessary upgrades, including
+allowances in the cost plan for increasing electrical capacity.
+2
+=== PAGE 3 ===
+Domestic hot water will be supplied through a decentralised system with dedicated pump rooms and
+calorifiers for each block. The precise sizing and layout will need further coordination with the architectural
+team.
+A central cold water storage tank and pump set are being considered, but additional flow and pressure tests
+are required to confirm strategy.
+A sprinkler system will be installed, requiring a dedicated storage tank and pump system. The placement
+and specifications will be determined in the next design stage.
+Additional drainage surveys are needed to confirm existing connections and assess the best approach for
+integrating new plumbing stacks.
+Next Steps
+Conduct a detailed energy model to validate the EPC upgrade strategy and refine ASHP requirements.
+Undertake a full acoustic assessment for ASHP locations to mitigate potential noise impacts.
+Conduct flow and pressure tests for incoming water supply and assess capacity for cold water storage.
+Carry out a CCTV survey of existing below-ground drainage infrastructure to determine capacity and
+potential modifications.
+Develop a coordinated MEP plan to confirm spatial requirements for plant rooms, risers, and service routes.
+Confirm structural feasibility for rooftop plant loads and ensure appropriate waterproofing measures are in
+place.
+Assess structural implications for rooftop plant installations, including loading and waterproofing
+considerations.
+Define emergency generator backup requirements for lifts.
+There are a significant number of different utilities running beneath the courtyard area and beneath the
+existing building at the site.
+To redivert these would come at a significant cost. It is therefore proposed that no basement excavation will
+be carried out at the site.
+The property includes a substation chamber leased to London Power Networks PLC since 1991. It is located
+on the ground floor and highlighted on the lease plan.
+Sprinklers will be required throughout the building to safeguard the residential nature of the scheme over
+11 metres in hight as per the expectations of contemporary guidance.
+The proposed lifts will function as full evacuation lifts, equipped with backup power to support emergency
+operations.
+3
+=== PAGE 4 ===
+Dry risers may be designated for each stair core to enhance hose coverage.
+The high-level development strategy has been reviewed in accordance with contemporary guidance, whilst
+sympathetic to the existing nature of the scheme and approved by Ben Green of Semper and adequate cost
+allowance has been made for fire-works.
+A detailed asbestos survey was conducted in 2014 by Phil Brown of eSafe Consultancy Limited. This
+management audit and re-inspection confirmed that no asbestos risks were detected in the areas surveyed.
+Areas not accessed during the survey or concealed behind newer materials may still contain asbestos,
+however Phil Brown provided verbal input that this is unlikely.
+Next Steps
+An intrusive asbestos survey must be completed before any refurbishment or demolition work. The next
+steps include commissioning the survey, ensuring compliance with the Control of Asbestos Regulations,
+and using the findings to guide safe operations or redevelopment.
+Planning Note
+Programme (subject to change)
+Sales Brochure
+LG Living Ltd is a limited liability company registered in England and Wales (with company number: 14631015)
+(‘LGL’ or ‘us’).
+No content or information contained in this document shall under any circumstances constitute a warranty,
+representation or undertaking from us and no person in the employment of LGL or its affiliated companies has any
+authority to make or give any of the same.
+Any information provided by us shall be taken and understood as estimates, projections, or data extrapolations only
+and we do not accept any liability in relation to any such estimates, projections, or data extrapolations.
+Any statements contained in our documents shall not, under any circumstances, be legally binding on LGL or its
+affiliated companies and the same shall all be subject to contract.
+All recipients of documents from us shall not rely on any statements or information provided in documents from
+LGL and must all satisfy themselves through their own independent inspections, due diligence and searches to
+ascertain the accuracy and validity of any such statements and we accept no liability in relation to the same.
+This document is solely intended for the recipient. The intended recipient may not be the actual recipient. Any
+recipient who receives this document in error should immediately report the error to the sender and permanently
+delete this document from all storage devices.
+4
